@@ -83,16 +83,16 @@ The proposed TDM-enhanced FFN ResBlock incorporates TDM between the FFN activati
 ---
 
 ## 🧪 Ablation Results
+
 **IWSLT14 DE&nbsp;→&nbsp;EN TDM insertion-depth ablation**
 
-| Model Variant | BLEU | Gain | Relative Gain | Best Epoch |
+| Model&nbsp;Variant | BLEU | Gain | Relative Gain | Best Epoch |
 |:---|---:|---:|---:|---:|
 | Transformer&nbsp;Baseline | 30.81 | +0.00 | +0.00% | 42 |
-| TDM-Former&nbsp;(L6) | 31.16 | +0.35 | +1.14% | 47 |
-| TDM-Former&nbsp;(L5–L6) | 31.37 | +0.56 | +1.82% | 47 |
-| **TDM-Former&nbsp;(L4–L6)** | **31.51** | **+0.70** | **+2.27%** | **47** |
-| TDM-Former&nbsp;(L3–L6) | 31.54 | +0.73 | +2.37% | 47 |
-
+| TDM&#8209;Former&nbsp;(L6) | 31.16 | +0.35 | +1.14% | 47 |
+| TDM&#8209;Former&nbsp;(L5&#8288;–&#8288;L6) | 31.37 | +0.56 | +1.82% | 47 |
+| **TDM&#8209;Former&nbsp;(L4&#8288;–&#8288;L6)** | **31.51** | **+0.70** | **+2.27%** | **47** |
+| TDM&#8209;Former&nbsp;(L3&#8288;–&#8288;L6) | 31.54 | +0.73 | +2.37% | 47 |
 
 
 
