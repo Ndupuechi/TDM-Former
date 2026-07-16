@@ -101,12 +101,12 @@ The proposed TDM-enhanced FFN ResBlock incorporates TDM between the FFN activati
 
 **IWSLT14 DE&nbsp;→&nbsp;EN TDM insertion-depth ablation**
 
-| Model Variant | Runs | BLEU Last | BLEU Best | Inference Time (s) | Time Δ | Throughput (words/s) | Throughput Δ | Memory (GB) | Memory Δ |
+| Model&nbsp;Variant | Runs | BLEU Last | BLEU Best | Inference Time (s) | Time Δ | Throughput (words/s) | Throughput Δ | Memory (GB) | Memory Δ |
 |:---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
 | Transformer&nbsp;Baseline | 10 | 30.48&nbsp;±&nbsp;0.00 | 30.81 | 6.03&nbsp;±&nbsp;0.33 | +0.00% | 5204.05&nbsp;±&nbsp;290.83 | +0.00% | 1.74&nbsp;±&nbsp;0.00 | +0.00% |
-| TDM-Former&nbsp;(L6) | 10 | 31.16&nbsp;±&nbsp;0.00 | 31.16 | 6.40&nbsp;±&nbsp;0.37 | +6.05% | 4985.42&nbsp;±&nbsp;289.68 | −4.20% | 1.74&nbsp;±&nbsp;0.00 | +0.00% |
-| TDM-Former&nbsp;(L5–L6) | 10 | 31.16&nbsp;±&nbsp;0.00 | 31.37 | 6.54&nbsp;±&nbsp;0.49 | +8.37% | 4870.09&nbsp;±&nbsp;349.02 | −6.42% | 1.74&nbsp;±&nbsp;0.00 | +0.00% |
-| **TDM-Former&nbsp;(L4–L6)** | **10** | **31.34&nbsp;±&nbsp;0.00** | **31.51** | **6.80&nbsp;±&nbsp;0.45** | **+12.70%** | **4660.17&nbsp;±&nbsp;288.56** | **−10.45%** | **1.74&nbsp;±&nbsp;0.00** | **+0.00%** |
-| TDM-Former&nbsp;(L3–L6) | 10 | 31.34&nbsp;±&nbsp;0.00 | 31.54 | 7.11&nbsp;±&nbsp;0.57 | +17.84% | 4485.32&nbsp;±&nbsp;328.22 | −13.81% | 1.74&nbsp;±&nbsp;0.00 | +0.00% |
+| TDM&#8209;Former&nbsp;(L6) | 10 | 31.16&nbsp;±&nbsp;0.00 | 31.16 | 6.40&nbsp;±&nbsp;0.37 | +6.05% | 4985.42&nbsp;±&nbsp;289.68 | −4.20% | 1.74&nbsp;±&nbsp;0.00 | +0.00% |
+| TDM&#8209;Former&nbsp;(L5&#8288;–&#8288;L6) | 10 | 31.16&nbsp;±&nbsp;0.00 | 31.37 | 6.54&nbsp;±&nbsp;0.49 | +8.37% | 4870.09&nbsp;±&nbsp;349.02 | −6.42% | 1.74&nbsp;±&nbsp;0.00 | +0.00% |
+| **TDM&#8209;Former&nbsp;(L4&#8288;–&#8288;L6)** | **10** | **31.34&nbsp;±&nbsp;0.00** | **31.51** | **6.80&nbsp;±&nbsp;0.45** | **+12.70%** | **4660.17&nbsp;±&nbsp;288.56** | **−10.45%** | **1.74&nbsp;±&nbsp;0.00** | **+0.00%** |
+| TDM&#8209;Former&nbsp;(L3&#8288;–&#8288;L6) | 10 | 31.34&nbsp;±&nbsp;0.00 | 31.54 | 7.11&nbsp;±&nbsp;0.57 | +17.84% | 4485.32&nbsp;±&nbsp;328.22 | −13.81% | 1.74&nbsp;±&nbsp;0.00 | +0.00% |
 
 ---
