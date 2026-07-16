@@ -1,0 +1,19 @@
+Model: TDM_Former
+Ablation Status: transition=True | rotation=False | enhanced_layers=Last 3 decoder FFN layers (L4-L6) | insertion=ffn
+Efficiency Test: True
+Metrics: BLEU | Inference Time (s) | Throughput (words/s) | Memory (GB) | Beam
+
+Epoch: 49 | Checkpoint epoch_49.0_TDM_Former_IWSLT14_De_En_Seed1_1_TDM_NoRotation_Last3Layer.pt | BLEU: 31.34 | Inference Time (s): 6.92 | Throughput (words/s): 4561.71 | Memory (GB): 1.74 | Beam=5
+Epoch: 49 | Checkpoint epoch_49.1_TDM_Former_IWSLT14_De_En_Seed1_1_TDM_NoRotation_Last3Layer.pt | BLEU: 31.34 | Inference Time (s): 6.54 | Throughput (words/s): 4824.40 | Memory (GB): 1.74 | Beam=5
+Epoch: 49 | Checkpoint epoch_49.2_TDM_Former_IWSLT14_De_En_Seed1_1_TDM_NoRotation_Last3Layer.pt | BLEU: 31.34 | Inference Time (s): 6.42 | Throughput (words/s): 4919.33 | Memory (GB): 1.74 | Beam=5
+Epoch: 49 | Checkpoint epoch_49.3_TDM_Former_IWSLT14_De_En_Seed1_1_TDM_NoRotation_Last3Layer.pt | BLEU: 31.34 | Inference Time (s): 6.40 | Throughput (words/s): 4928.90 | Memory (GB): 1.74 | Beam=5
+Epoch: 49 | Checkpoint epoch_49.4_TDM_Former_IWSLT14_De_En_Seed1_1_TDM_NoRotation_Last3Layer.pt | BLEU: 31.34 | Inference Time (s): 7.19 | Throughput (words/s): 4389.51 | Memory (GB): 1.74 | Beam=5
+Epoch: 49 | Checkpoint epoch_49.5_TDM_Former_IWSLT14_De_En_Seed1_1_TDM_NoRotation_Last3Layer.pt | BLEU: 31.34 | Inference Time (s): 7.30 | Throughput (words/s): 4326.03 | Memory (GB): 1.74 | Beam=5
+Epoch: 49 | Checkpoint epoch_49.6_TDM_Former_IWSLT14_De_En_Seed1_1_TDM_NoRotation_Last3Layer.pt | BLEU: 31.34 | Inference Time (s): 6.96 | Throughput (words/s): 4534.61 | Memory (GB): 1.74 | Beam=5
+Epoch: 49 | Checkpoint epoch_49.7_TDM_Former_IWSLT14_De_En_Seed1_1_TDM_NoRotation_Last3Layer.pt | BLEU: 31.34 | Inference Time (s): 7.42 | Throughput (words/s): 4253.65 | Memory (GB): 1.74 | Beam=5
+Epoch: 49 | Checkpoint epoch_49.8_TDM_Former_IWSLT14_De_En_Seed1_1_TDM_NoRotation_Last3Layer.pt | BLEU: 31.34 | Inference Time (s): 6.76 | Throughput (words/s): 4671.57 | Memory (GB): 1.74 | Beam=5
+Epoch: 49 | Checkpoint epoch_49.9_TDM_Former_IWSLT14_De_En_Seed1_1_TDM_NoRotation_Last3Layer.pt | BLEU: 31.34 | Inference Time (s): 6.91 | Throughput (words/s): 4567.21 | Memory (GB): 1.74 | Beam=5
+
+🏆 Best BLEU Score: 31.34
+
+🕒 Total Efficiency Test Time over all checkpoints: 1 min 8.83 sec

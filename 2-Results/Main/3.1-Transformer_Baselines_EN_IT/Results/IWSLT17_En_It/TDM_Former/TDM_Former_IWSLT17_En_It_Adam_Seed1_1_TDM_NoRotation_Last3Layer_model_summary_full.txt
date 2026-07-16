@@ -1,0 +1,39 @@
+------------------------------------------
+Dataset Information
+------------------------------------------
+🌍 dataset_name= IWSLT17_En_It
+🌍 translation_direction= en → it
+📊 train_samples= 231,619
+📊 test_samples= 1,566
+
+------------------------------------------
+Current Model
+------------------------------------------
+Model name: TDM_Former
+
+✅ TDM_Former Total Parameters: 56,225,792
+✅ TDM_Former Trainable Parameters: 56,225,792
+
+📦 Params: 56.2258 M | ⚙️ MACs: 12.3659 GMACs | 🔥 FLOPs: 24.7608 GFLOPS
+
+------------------------------------------
+TDM Parameters
+------------------------------------------
+🔧 tdm_alpha=0.05 | 🔧 tdm_transition_amplification=4.5 | 🔧 tdm_num_layers=3 | 🧬 tdm_transition=True | 🌀 tdm_rotation=False | ⏪⏭️ tdm_insertion_type=ffn | 📐 tdm_scale_init=0.0 | 🚦 tdm_start_epoch=5 | 🏁 tdm_full_epoch=15 | 🚪 tdm_gate_type=transition_contrast
+
+------------------------------------------
+Fairseq Baseline Transformer
+------------------------------------------
+🏗️ model_class= TransformerModel
+
+✅ Fairseq Total Parameters: 56,225,792
+✅ Fairseq Trainable Parameters: 56,225,792
+
+📦 Params: 56.2258 M | ⚙️ MACs: 12.3659 GMACs | 🔥 FLOPs: 24.7608 GFLOPS
+
+⚖️ encoder_layers= 6 | decoder_layers= 6 | encoder_embed_dim= 512 | decoder_embed_dim= 512 | max_target_positions= 256 | dropout= 0.3
+
+------------------------------------------
+Optimiser & Activation
+------------------------------------------
+🔧 activation= gelu | optimizer= Adam | lr= 0.0001 | smoothing= 0.1

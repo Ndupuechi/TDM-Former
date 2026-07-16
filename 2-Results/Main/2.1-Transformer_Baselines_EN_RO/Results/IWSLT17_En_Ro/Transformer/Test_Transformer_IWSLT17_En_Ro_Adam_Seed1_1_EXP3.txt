@@ -1,0 +1,7 @@
+Epoch 49 | Test Loss: 2.984 | sacreBLEU: 26.31 | Beam=5
+
+🏆 Last BLEU Score: 26.31
+
+🕒 Total Test Time => Transformer: 0 min 7.35 sec
+
+🕒 Total Training Time => Transformer: 73 min 7.80 sec

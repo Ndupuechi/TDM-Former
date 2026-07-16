@@ -1,0 +1,19 @@
+Model: Baseline Fairseq Transformer
+Ablation Status: transition=False | rotation=False | enhanced_layers=None | insertion=None
+Efficiency Test: True
+Metrics: BLEU | Inference Time (s) | Throughput (words/s) | Memory (GB) | Beam
+
+Epoch: 49 | Checkpoint epoch_49.0_Transformer_IWSLT14_De_En_Seed1_1_EXP3.pt | BLEU: 30.48 | Inference Time (s): 6.44 | Throughput (words/s): 4864.64 | Memory (GB): 1.74 | Beam=5
+Epoch: 49 | Checkpoint epoch_49.1_Transformer_IWSLT14_De_En_Seed1_1_EXP3.pt | BLEU: 30.48 | Inference Time (s): 6.26 | Throughput (words/s): 5001.46 | Memory (GB): 1.74 | Beam=5
+Epoch: 49 | Checkpoint epoch_49.2_Transformer_IWSLT14_De_En_Seed1_1_EXP3.pt | BLEU: 30.48 | Inference Time (s): 5.78 | Throughput (words/s): 5415.13 | Memory (GB): 1.74 | Beam=5
+Epoch: 49 | Checkpoint epoch_49.3_Transformer_IWSLT14_De_En_Seed1_1_EXP3.pt | BLEU: 30.48 | Inference Time (s): 6.53 | Throughput (words/s): 4796.90 | Memory (GB): 1.74 | Beam=5
+Epoch: 49 | Checkpoint epoch_49.4_Transformer_IWSLT14_De_En_Seed1_1_EXP3.pt | BLEU: 30.48 | Inference Time (s): 5.99 | Throughput (words/s): 5229.85 | Memory (GB): 1.74 | Beam=5
+Epoch: 49 | Checkpoint epoch_49.5_Transformer_IWSLT14_De_En_Seed1_1_EXP3.pt | BLEU: 30.48 | Inference Time (s): 6.16 | Throughput (words/s): 5082.70 | Memory (GB): 1.74 | Beam=5
+Epoch: 49 | Checkpoint epoch_49.6_Transformer_IWSLT14_De_En_Seed1_1_EXP3.pt | BLEU: 30.48 | Inference Time (s): 6.10 | Throughput (words/s): 5128.65 | Memory (GB): 1.74 | Beam=5
+Epoch: 49 | Checkpoint epoch_49.7_Transformer_IWSLT14_De_En_Seed1_1_EXP3.pt | BLEU: 30.48 | Inference Time (s): 5.91 | Throughput (words/s): 5300.24 | Memory (GB): 1.74 | Beam=5
+Epoch: 49 | Checkpoint epoch_49.8_Transformer_IWSLT14_De_En_Seed1_1_EXP3.pt | BLEU: 30.48 | Inference Time (s): 5.71 | Throughput (words/s): 5480.00 | Memory (GB): 1.74 | Beam=5
+Epoch: 49 | Checkpoint epoch_49.9_Transformer_IWSLT14_De_En_Seed1_1_EXP3.pt | BLEU: 30.48 | Inference Time (s): 5.45 | Throughput (words/s): 5740.89 | Memory (GB): 1.74 | Beam=5
+
+🏆 Best BLEU Score: 30.48
+
+🕒 Total Efficiency Test Time over all checkpoints: 1 min 0.33 sec

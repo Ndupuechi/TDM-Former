@@ -1,0 +1,37 @@
+================================================================================================
+📊🏷️1. ============= Transformer Complexity Check ===========================
+================================================================================================
+✅ PTNBlock Total Parameters: 2,628,097
+✅ PTNBlock Trainable Parameters: 2,628,097
+⚖️ model=Transformer | encoder_layers=6 | decoder_layers=6 | encoder_embed_dim=512 | decoder_embed_dim=512 | dropout=0.3
+🔧 activation=gelu | optimizer=Adam | lr=0.0001
+
+==============================================================================================
+📐🏷️2. ============= Transformer Architecture ===============================
+================================================================================================
+PTNBlock(
+  (pem): PredictiveEvolutionModule(
+    (predictor): Sequential(
+      (0): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+      (1): Linear(in_features=512, out_features=2048, bias=True)
+      (2): GELU(approximate='none')
+      (3): Dropout(p=0.3, inplace=False)
+      (4): Linear(in_features=2048, out_features=512, bias=True)
+    )
+  )
+  (ttm): TemporalTensionModule()
+  (srm): StateRelaxationModule(
+    (update_proj): Sequential(
+      (0): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+      (1): Linear(in_features=512, out_features=512, bias=True)
+      (2): GELU(approximate='none')
+      (3): Dropout(p=0.3, inplace=False)
+      (4): Linear(in_features=512, out_features=512, bias=True)
+    )
+  )
+  (norm): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+)
+
+==============================================================================================
+📐🏷️3. ============= Transformer Architectural Specification  ===============
+================================================================================================

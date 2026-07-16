@@ -1,0 +1,34 @@
+------------------------------------------
+Dataset Information
+------------------------------------------
+🌍 dataset_name= IWSLT17_En_Zh
+🌍 translation_direction= en → zh
+📊 train_samples= 231,266
+📊 test_samples= 8,549
+
+------------------------------------------
+Current Model
+------------------------------------------
+Model name: Transformer
+
+✅ Transformer Total Parameters: 56,233,984
+✅ Transformer Trainable Parameters: 56,233,984
+
+📦 Params: 56.2340 M | ⚙️ MACs: 12.5399 GMACs | 🔥 FLOPs: 25.1089 GFLOPS
+
+------------------------------------------
+Fairseq Baseline Transformer
+------------------------------------------
+🏗️ model_class= TransformerModel
+
+✅ Fairseq Total Parameters: 56,233,984
+✅ Fairseq Trainable Parameters: 56,233,984
+
+📦 Params: 56.2340 M | ⚙️ MACs: 12.5399 GMACs | 🔥 FLOPs: 25.1089 GFLOPS
+
+⚖️ encoder_layers= 6 | decoder_layers= 6 | encoder_embed_dim= 512 | decoder_embed_dim= 512 | max_target_positions= 256 | dropout= 0.3
+
+------------------------------------------
+Optimiser & Activation
+------------------------------------------
+🔧 activation= gelu | optimizer= Adam | lr= 0.0001 | smoothing= 0.1

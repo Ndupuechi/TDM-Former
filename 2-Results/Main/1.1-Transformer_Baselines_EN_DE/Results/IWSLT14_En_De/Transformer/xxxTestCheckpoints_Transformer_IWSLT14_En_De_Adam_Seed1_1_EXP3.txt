@@ -1,0 +1,7 @@
+Checkpoint epoch_47_Transformer_IWSLT14_En_De_Seed1_1_EXP3.pt | Test Loss: 3.176 | sacreBLEU: 25.13 | Beam=5
+Checkpoint epoch_48_Transformer_IWSLT14_En_De_Seed1_1_EXP3.pt | Test Loss: 3.183 | sacreBLEU: 25.34 | Beam=5
+Checkpoint epoch_49_Transformer_IWSLT14_En_De_Seed1_1_EXP3.pt | Test Loss: 3.167 | sacreBLEU: 25.07 | Beam=5
+
+🏆 Best BLEU Score: 25.34
+
+🕒 Total Test Time over all checkpoints: 0 min 20.35 sec

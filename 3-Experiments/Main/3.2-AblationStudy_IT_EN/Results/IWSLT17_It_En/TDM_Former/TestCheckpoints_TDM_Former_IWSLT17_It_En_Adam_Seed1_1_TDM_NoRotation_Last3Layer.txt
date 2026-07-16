@@ -1,0 +1,64 @@
+Model: TDM_Former
+Ablation Status: transition=True | rotation=False | enhanced_layers=Last 3 decoder FFN layers (L4-L6) | insertion=ffn
+
+Checkpoint epoch_0_TDM_Former_IWSLT17_It_En_Seed1_1_TDM_NoRotation_Last3Layer.pt | Test Loss: 5.656 | sacreBLEU: 1.08 | Beam=5
+Checkpoint epoch_1_TDM_Former_IWSLT17_It_En_Seed1_1_TDM_NoRotation_Last3Layer.pt | Test Loss: 4.995 | sacreBLEU: 2.45 | Beam=5
+Checkpoint epoch_2_TDM_Former_IWSLT17_It_En_Seed1_1_TDM_NoRotation_Last3Layer.pt | Test Loss: 4.391 | sacreBLEU: 6.63 | Beam=5
+Checkpoint epoch_3_TDM_Former_IWSLT17_It_En_Seed1_1_TDM_NoRotation_Last3Layer.pt | Test Loss: 4.111 | sacreBLEU: 9.77 | Beam=5
+Checkpoint epoch_4_TDM_Former_IWSLT17_It_En_Seed1_1_TDM_NoRotation_Last3Layer.pt | Test Loss: 3.811 | sacreBLEU: 14.40 | Beam=5
+Checkpoint epoch_5_TDM_Former_IWSLT17_It_En_Seed1_1_TDM_NoRotation_Last3Layer.pt | Test Loss: 3.781 | sacreBLEU: 15.83 | Beam=5
+Checkpoint epoch_6_TDM_Former_IWSLT17_It_En_Seed1_1_TDM_NoRotation_Last3Layer.pt | Test Loss: 3.533 | sacreBLEU: 20.40 | Beam=5
+Checkpoint epoch_7_TDM_Former_IWSLT17_It_En_Seed1_1_TDM_NoRotation_Last3Layer.pt | Test Loss: 3.450 | sacreBLEU: 22.11 | Beam=5
+Checkpoint epoch_8_TDM_Former_IWSLT17_It_En_Seed1_1_TDM_NoRotation_Last3Layer.pt | Test Loss: 3.413 | sacreBLEU: 24.02 | Beam=5
+Checkpoint epoch_9_TDM_Former_IWSLT17_It_En_Seed1_1_TDM_NoRotation_Last3Layer.pt | Test Loss: 3.321 | sacreBLEU: 24.70 | Beam=5
+Checkpoint epoch_10_TDM_Former_IWSLT17_It_En_Seed1_1_TDM_NoRotation_Last3Layer.pt | Test Loss: 3.301 | sacreBLEU: 25.52 | Beam=5
+Checkpoint epoch_11_TDM_Former_IWSLT17_It_En_Seed1_1_TDM_NoRotation_Last3Layer.pt | Test Loss: 3.261 | sacreBLEU: 26.62 | Beam=5
+Checkpoint epoch_12_TDM_Former_IWSLT17_It_En_Seed1_1_TDM_NoRotation_Last3Layer.pt | Test Loss: 3.204 | sacreBLEU: 26.26 | Beam=5
+Checkpoint epoch_13_TDM_Former_IWSLT17_It_En_Seed1_1_TDM_NoRotation_Last3Layer.pt | Test Loss: 3.180 | sacreBLEU: 26.97 | Beam=5
+Checkpoint epoch_14_TDM_Former_IWSLT17_It_En_Seed1_1_TDM_NoRotation_Last3Layer.pt | Test Loss: 3.155 | sacreBLEU: 27.14 | Beam=5
+Checkpoint epoch_15_TDM_Former_IWSLT17_It_En_Seed1_1_TDM_NoRotation_Last3Layer.pt | Test Loss: 3.143 | sacreBLEU: 27.84 | Beam=5
+Checkpoint epoch_16_TDM_Former_IWSLT17_It_En_Seed1_1_TDM_NoRotation_Last3Layer.pt | Test Loss: 3.106 | sacreBLEU: 28.19 | Beam=5
+Checkpoint epoch_17_TDM_Former_IWSLT17_It_En_Seed1_1_TDM_NoRotation_Last3Layer.pt | Test Loss: 3.119 | sacreBLEU: 28.78 | Beam=5
+Checkpoint epoch_18_TDM_Former_IWSLT17_It_En_Seed1_1_TDM_NoRotation_Last3Layer.pt | Test Loss: 3.086 | sacreBLEU: 29.55 | Beam=5
+Checkpoint epoch_19_TDM_Former_IWSLT17_It_En_Seed1_1_TDM_NoRotation_Last3Layer.pt | Test Loss: 3.072 | sacreBLEU: 28.83 | Beam=5
+Checkpoint epoch_20_TDM_Former_IWSLT17_It_En_Seed1_1_TDM_NoRotation_Last3Layer.pt | Test Loss: 3.060 | sacreBLEU: 29.66 | Beam=5
+Checkpoint epoch_21_TDM_Former_IWSLT17_It_En_Seed1_1_TDM_NoRotation_Last3Layer.pt | Test Loss: 3.079 | sacreBLEU: 29.85 | Beam=5
+Checkpoint epoch_22_TDM_Former_IWSLT17_It_En_Seed1_1_TDM_NoRotation_Last3Layer.pt | Test Loss: 3.042 | sacreBLEU: 29.99 | Beam=5
+Checkpoint epoch_23_TDM_Former_IWSLT17_It_En_Seed1_1_TDM_NoRotation_Last3Layer.pt | Test Loss: 3.040 | sacreBLEU: 29.71 | Beam=5
+Checkpoint epoch_24_TDM_Former_IWSLT17_It_En_Seed1_1_TDM_NoRotation_Last3Layer.pt | Test Loss: 3.023 | sacreBLEU: 29.72 | Beam=5
+Checkpoint epoch_25_TDM_Former_IWSLT17_It_En_Seed1_1_TDM_NoRotation_Last3Layer.pt | Test Loss: 3.007 | sacreBLEU: 30.01 | Beam=5
+Checkpoint epoch_26_TDM_Former_IWSLT17_It_En_Seed1_1_TDM_NoRotation_Last3Layer.pt | Test Loss: 2.997 | sacreBLEU: 30.74 | Beam=5
+Checkpoint epoch_27_TDM_Former_IWSLT17_It_En_Seed1_1_TDM_NoRotation_Last3Layer.pt | Test Loss: 2.994 | sacreBLEU: 29.59 | Beam=5
+Checkpoint epoch_28_TDM_Former_IWSLT17_It_En_Seed1_1_TDM_NoRotation_Last3Layer.pt | Test Loss: 2.988 | sacreBLEU: 31.04 | Beam=5
+Checkpoint epoch_29_TDM_Former_IWSLT17_It_En_Seed1_1_TDM_NoRotation_Last3Layer.pt | Test Loss: 2.974 | sacreBLEU: 31.64 | Beam=5
+Checkpoint epoch_30_TDM_Former_IWSLT17_It_En_Seed1_1_TDM_NoRotation_Last3Layer.pt | Test Loss: 2.990 | sacreBLEU: 30.66 | Beam=5
+Checkpoint epoch_31_TDM_Former_IWSLT17_It_En_Seed1_1_TDM_NoRotation_Last3Layer.pt | Test Loss: 2.974 | sacreBLEU: 30.61 | Beam=5
+Checkpoint epoch_32_TDM_Former_IWSLT17_It_En_Seed1_1_TDM_NoRotation_Last3Layer.pt | Test Loss: 2.964 | sacreBLEU: 31.19 | Beam=5
+Checkpoint epoch_33_TDM_Former_IWSLT17_It_En_Seed1_1_TDM_NoRotation_Last3Layer.pt | Test Loss: 2.969 | sacreBLEU: 31.03 | Beam=5
+Checkpoint epoch_34_TDM_Former_IWSLT17_It_En_Seed1_1_TDM_NoRotation_Last3Layer.pt | Test Loss: 2.955 | sacreBLEU: 30.76 | Beam=5
+Checkpoint epoch_35_TDM_Former_IWSLT17_It_En_Seed1_1_TDM_NoRotation_Last3Layer.pt | Test Loss: 2.964 | sacreBLEU: 31.04 | Beam=5
+Checkpoint epoch_36_TDM_Former_IWSLT17_It_En_Seed1_1_TDM_NoRotation_Last3Layer.pt | Test Loss: 2.949 | sacreBLEU: 31.34 | Beam=5
+Checkpoint epoch_37_TDM_Former_IWSLT17_It_En_Seed1_1_TDM_NoRotation_Last3Layer.pt | Test Loss: 2.941 | sacreBLEU: 31.83 | Beam=5
+Checkpoint epoch_38_TDM_Former_IWSLT17_It_En_Seed1_1_TDM_NoRotation_Last3Layer.pt | Test Loss: 2.939 | sacreBLEU: 31.39 | Beam=5
+
+♻️ Resuming checkpoint testing after crash
+
+Model: TDM_Former
+Ablation Status: transition=True | rotation=False | enhanced_layers=Last 3 decoder FFN layers (L4-L6) | insertion=ffn
+
+Checkpoint epoch_39_TDM_Former_IWSLT17_It_En_Seed1_1_TDM_NoRotation_Last3Layer.pt | Test Loss: 2.931 | sacreBLEU: 31.80 | Beam=5
+Checkpoint epoch_40_TDM_Former_IWSLT17_It_En_Seed1_1_TDM_NoRotation_Last3Layer.pt | Test Loss: 2.925 | sacreBLEU: 31.39 | Beam=5
+Checkpoint epoch_41_TDM_Former_IWSLT17_It_En_Seed1_1_TDM_NoRotation_Last3Layer.pt | Test Loss: 2.932 | sacreBLEU: 31.60 | Beam=5
+Checkpoint epoch_42_TDM_Former_IWSLT17_It_En_Seed1_1_TDM_NoRotation_Last3Layer.pt | Test Loss: 2.922 | sacreBLEU: 31.85 | Beam=5
+Checkpoint epoch_43_TDM_Former_IWSLT17_It_En_Seed1_1_TDM_NoRotation_Last3Layer.pt | Test Loss: 2.927 | sacreBLEU: 31.30 | Beam=5
+Checkpoint epoch_44_TDM_Former_IWSLT17_It_En_Seed1_1_TDM_NoRotation_Last3Layer.pt | Test Loss: 2.919 | sacreBLEU: 31.79 | Beam=5
+Checkpoint epoch_45_TDM_Former_IWSLT17_It_En_Seed1_1_TDM_NoRotation_Last3Layer.pt | Test Loss: 2.927 | sacreBLEU: 31.88 | Beam=5
+Checkpoint epoch_46_TDM_Former_IWSLT17_It_En_Seed1_1_TDM_NoRotation_Last3Layer.pt | Test Loss: 2.926 | sacreBLEU: 32.63 | Beam=5
+Checkpoint epoch_47_TDM_Former_IWSLT17_It_En_Seed1_1_TDM_NoRotation_Last3Layer.pt | Test Loss: 2.910 | sacreBLEU: 32.30 | Beam=5
+Checkpoint epoch_48_TDM_Former_IWSLT17_It_En_Seed1_1_TDM_NoRotation_Last3Layer.pt | Test Loss: 2.915 | sacreBLEU: 31.45 | Beam=5
+Checkpoint epoch_49_TDM_Former_IWSLT17_It_En_Seed1_1_TDM_NoRotation_Last3Layer.pt | Test Loss: 2.902 | sacreBLEU: 32.32 | Beam=5
+Checkpoint TDM_Former_IWSLT17_It_En_LR0_0001_Adam_Seed1_1_TDM_NoRotation_Last3Layer_LastEpoch49.pt | Test Loss: 2.902 | sacreBLEU: 32.32 | Beam=5
+
+🏆 Best BLEU Score: 32.63
+
+🕒 Total Test Time over all checkpoints: 1 min 9.07 sec

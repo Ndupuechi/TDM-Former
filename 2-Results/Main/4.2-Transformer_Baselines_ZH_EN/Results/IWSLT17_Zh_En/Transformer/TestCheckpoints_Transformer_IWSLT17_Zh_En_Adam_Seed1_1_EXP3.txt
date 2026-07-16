@@ -1,0 +1,66 @@
+Model: Baseline Fairseq Transformer
+
+Checkpoint epoch_0_Transformer_IWSLT17_Zh_En_Seed1_1_EXP3.pt | Test Loss: 5.641 | sacreBLEU: 7.71 | Beam=5
+Checkpoint epoch_1_Transformer_IWSLT17_Zh_En_Seed1_1_EXP3.pt | Test Loss: 4.996 | sacreBLEU: 6.83 | Beam=5
+Checkpoint epoch_2_Transformer_IWSLT17_Zh_En_Seed1_1_EXP3.pt | Test Loss: 4.634 | sacreBLEU: 12.08 | Beam=5
+Checkpoint epoch_3_Transformer_IWSLT17_Zh_En_Seed1_1_EXP3.pt | Test Loss: 4.360 | sacreBLEU: 12.29 | Beam=5
+Checkpoint epoch_4_Transformer_IWSLT17_Zh_En_Seed1_1_EXP3.pt | Test Loss: 4.168 | sacreBLEU: 16.75 | Beam=5
+Checkpoint epoch_5_Transformer_IWSLT17_Zh_En_Seed1_1_EXP3.pt | Test Loss: 4.046 | sacreBLEU: 19.03 | Beam=5
+Checkpoint epoch_6_Transformer_IWSLT17_Zh_En_Seed1_1_EXP3.pt | Test Loss: 3.936 | sacreBLEU: 22.01 | Beam=5
+Checkpoint epoch_7_Transformer_IWSLT17_Zh_En_Seed1_1_EXP3.pt | Test Loss: 3.887 | sacreBLEU: 22.94 | Beam=5
+Checkpoint epoch_8_Transformer_IWSLT17_Zh_En_Seed1_1_EXP3.pt | Test Loss: 3.808 | sacreBLEU: 26.36 | Beam=5
+Checkpoint epoch_9_Transformer_IWSLT17_Zh_En_Seed1_1_EXP3.pt | Test Loss: 3.752 | sacreBLEU: 26.74 | Beam=5
+Checkpoint epoch_10_Transformer_IWSLT17_Zh_En_Seed1_1_EXP3.pt | Test Loss: 3.719 | sacreBLEU: 25.27 | Beam=5
+Checkpoint epoch_11_Transformer_IWSLT17_Zh_En_Seed1_1_EXP3.pt | Test Loss: 3.673 | sacreBLEU: 28.31 | Beam=5
+Checkpoint epoch_12_Transformer_IWSLT17_Zh_En_Seed1_1_EXP3.pt | Test Loss: 3.639 | sacreBLEU: 28.69 | Beam=5
+Checkpoint epoch_13_Transformer_IWSLT17_Zh_En_Seed1_1_EXP3.pt | Test Loss: 3.605 | sacreBLEU: 29.48 | Beam=5
+Checkpoint epoch_14_Transformer_IWSLT17_Zh_En_Seed1_1_EXP3.pt | Test Loss: 3.589 | sacreBLEU: 28.59 | Beam=5
+Checkpoint epoch_15_Transformer_IWSLT17_Zh_En_Seed1_1_EXP3.pt | Test Loss: 3.558 | sacreBLEU: 30.45 | Beam=5
+Checkpoint epoch_16_Transformer_IWSLT17_Zh_En_Seed1_1_EXP3.pt | Test Loss: 3.542 | sacreBLEU: 30.81 | Beam=5
+Checkpoint epoch_17_Transformer_IWSLT17_Zh_En_Seed1_1_EXP3.pt | Test Loss: 3.536 | sacreBLEU: 30.03 | Beam=5
+Checkpoint epoch_18_Transformer_IWSLT17_Zh_En_Seed1_1_EXP3.pt | Test Loss: 3.513 | sacreBLEU: 30.68 | Beam=5
+Checkpoint epoch_19_Transformer_IWSLT17_Zh_En_Seed1_1_EXP3.pt | Test Loss: 3.490 | sacreBLEU: 30.75 | Beam=5
+Checkpoint epoch_20_Transformer_IWSLT17_Zh_En_Seed1_1_EXP3.pt | Test Loss: 3.483 | sacreBLEU: 30.83 | Beam=5
+Checkpoint epoch_21_Transformer_IWSLT17_Zh_En_Seed1_1_EXP3.pt | Test Loss: 3.464 | sacreBLEU: 31.32 | Beam=5
+Checkpoint epoch_22_Transformer_IWSLT17_Zh_En_Seed1_1_EXP3.pt | Test Loss: 3.463 | sacreBLEU: 30.41 | Beam=5
+Checkpoint epoch_23_Transformer_IWSLT17_Zh_En_Seed1_1_EXP3.pt | Test Loss: 3.442 | sacreBLEU: 32.18 | Beam=5
+Checkpoint epoch_24_Transformer_IWSLT17_Zh_En_Seed1_1_EXP3.pt | Test Loss: 3.450 | sacreBLEU: 30.58 | Beam=5
+Checkpoint epoch_25_Transformer_IWSLT17_Zh_En_Seed1_1_EXP3.pt | Test Loss: 3.437 | sacreBLEU: 32.50 | Beam=5
+Checkpoint epoch_26_Transformer_IWSLT17_Zh_En_Seed1_1_EXP3.pt | Test Loss: 3.416 | sacreBLEU: 31.58 | Beam=5
+Checkpoint epoch_27_Transformer_IWSLT17_Zh_En_Seed1_1_EXP3.pt | Test Loss: 3.416 | sacreBLEU: 32.46 | Beam=5
+Checkpoint epoch_28_Transformer_IWSLT17_Zh_En_Seed1_1_EXP3.pt | Test Loss: 3.407 | sacreBLEU: 32.62 | Beam=5
+Checkpoint epoch_29_Transformer_IWSLT17_Zh_En_Seed1_1_EXP3.pt | Test Loss: 3.393 | sacreBLEU: 32.14 | Beam=5
+Checkpoint epoch_30_Transformer_IWSLT17_Zh_En_Seed1_1_EXP3.pt | Test Loss: 3.387 | sacreBLEU: 32.94 | Beam=5
+Checkpoint epoch_31_Transformer_IWSLT17_Zh_En_Seed1_1_EXP3.pt | Test Loss: 3.402 | sacreBLEU: 32.69 | Beam=5
+Checkpoint epoch_32_Transformer_IWSLT17_Zh_En_Seed1_1_EXP3.pt | Test Loss: 3.370 | sacreBLEU: 31.95 | Beam=5
+
+♻️ Resuming checkpoint testing after crash
+
+Model: Baseline Fairseq Transformer
+
+Checkpoint epoch_33_Transformer_IWSLT17_Zh_En_Seed1_1_EXP3.pt | Test Loss: 3.363 | sacreBLEU: 32.74 | Beam=5
+Checkpoint epoch_34_Transformer_IWSLT17_Zh_En_Seed1_1_EXP3.pt | Test Loss: 3.359 | sacreBLEU: 33.44 | Beam=5
+Checkpoint epoch_35_Transformer_IWSLT17_Zh_En_Seed1_1_EXP3.pt | Test Loss: 3.359 | sacreBLEU: 31.59 | Beam=5
+Checkpoint epoch_36_Transformer_IWSLT17_Zh_En_Seed1_1_EXP3.pt | Test Loss: 3.344 | sacreBLEU: 31.82 | Beam=5
+Checkpoint epoch_37_Transformer_IWSLT17_Zh_En_Seed1_1_EXP3.pt | Test Loss: 3.344 | sacreBLEU: 33.29 | Beam=5
+Checkpoint epoch_38_Transformer_IWSLT17_Zh_En_Seed1_1_EXP3.pt | Test Loss: 3.334 | sacreBLEU: 32.29 | Beam=5
+Checkpoint epoch_39_Transformer_IWSLT17_Zh_En_Seed1_1_EXP3.pt | Test Loss: 3.327 | sacreBLEU: 32.61 | Beam=5
+Checkpoint epoch_40_Transformer_IWSLT17_Zh_En_Seed1_1_EXP3.pt | Test Loss: 3.337 | sacreBLEU: 33.80 | Beam=5
+Checkpoint epoch_41_Transformer_IWSLT17_Zh_En_Seed1_1_EXP3.pt | Test Loss: 3.318 | sacreBLEU: 33.09 | Beam=5
+Checkpoint epoch_42_Transformer_IWSLT17_Zh_En_Seed1_1_EXP3.pt | Test Loss: 3.319 | sacreBLEU: 32.92 | Beam=5
+
+♻️ Resuming checkpoint testing after crash
+
+Model: Baseline Fairseq Transformer
+
+Checkpoint epoch_44_Transformer_IWSLT17_Zh_En_Seed1_1_EXP3.pt | Test Loss: 3.312 | sacreBLEU: 32.80 | Beam=5
+Checkpoint epoch_45_Transformer_IWSLT17_Zh_En_Seed1_1_EXP3.pt | Test Loss: 3.308 | sacreBLEU: 33.28 | Beam=5
+Checkpoint epoch_46_Transformer_IWSLT17_Zh_En_Seed1_1_EXP3.pt | Test Loss: 3.307 | sacreBLEU: 34.35 | Beam=5
+Checkpoint epoch_47_Transformer_IWSLT17_Zh_En_Seed1_1_EXP3.pt | Test Loss: 3.293 | sacreBLEU: 33.72 | Beam=5
+Checkpoint epoch_48_Transformer_IWSLT17_Zh_En_Seed1_1_EXP3.pt | Test Loss: 3.291 | sacreBLEU: 33.28 | Beam=5
+Checkpoint epoch_49_Transformer_IWSLT17_Zh_En_Seed1_1_EXP3.pt | Test Loss: 3.290 | sacreBLEU: 33.46 | Beam=5
+Checkpoint Transformer_IWSLT17_Zh_En_LR0_0001_Adam_Seed1_1_EXP3_LastEpoch49.pt | Test Loss: 3.290 | sacreBLEU: 33.46 | Beam=5
+
+🏆 Best BLEU Score: 34.35
+
+🕒 Total Test Time over all checkpoints: 4 min 3.96 sec

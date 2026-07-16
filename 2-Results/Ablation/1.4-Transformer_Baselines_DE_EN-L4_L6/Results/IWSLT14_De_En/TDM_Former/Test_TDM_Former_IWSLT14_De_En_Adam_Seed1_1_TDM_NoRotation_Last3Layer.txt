@@ -1,0 +1,7 @@
+Epoch 49 | Test Loss: 2.944 | sacreBLEU: 31.34 | Beam=5
+
+🏆 Last BLEU Score: 31.34
+
+🕒 Total Test Time => TDM_Former: 0 min 7.81 sec
+
+🕒 Total Training Time => TDM_Former: 66 min 2.13 sec

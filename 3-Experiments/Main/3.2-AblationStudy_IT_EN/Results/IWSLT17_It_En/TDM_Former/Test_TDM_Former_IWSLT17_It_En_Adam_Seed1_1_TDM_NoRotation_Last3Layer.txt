@@ -1,0 +1,10 @@
+Model: TDM_Former
+Ablation Status: transition=True | rotation=False | enhanced_layers=Last 3 decoder FFN layers (L4-L6) | insertion=ffn
+
+Epoch 49 | Test Loss: 2.902 | sacreBLEU: 32.32 | Beam=5
+
+🏆 Last BLEU Score: 32.32
+
+🕒 Total Test Time => TDM_Former: 0 min 6.74 sec
+
+🕒 Total Training Time => TDM_Former: 81 min 33.38 sec
