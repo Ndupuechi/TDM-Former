@@ -17,7 +17,7 @@ TDM captures the relationship between consecutive activated FFN representations 
 The conventional Transformer FFN ResBlock contains a position-wise FFN with two fully connected linear sublayers and an activation function. Each FFN output is computed from the corresponding activated FFN representation without directly using the preceding activated FFN representation.
 
 <p align="center">
-  <img src="1-Architecture/ffn_resblock.svg" width="450"/>
+  <img src="1-Architecture/ffn_resblock.svg" width="350"/>
 </p>
 
 <p align="center">
@@ -31,7 +31,7 @@ The conventional Transformer FFN ResBlock contains a position-wise FFN with two 
 The proposed TDM-enhanced FFN ResBlock incorporates TDM between the FFN activation and the second linear transformation. TDM computes a transition signal between consecutive activated FFN representations and uses this signal to modulate the current activated FFN representation.
 
 <p align="center">
-  <img src="1-Architecture/ffn_tdm_resblock.svg" width="450"/>
+  <img src="1-Architecture/ffn_tdm_resblock.svg" width="350"/>
 </p>
 
 <p align="center">
