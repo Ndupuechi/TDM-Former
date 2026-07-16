@@ -1,3 +1,4 @@
+
 # TDM-Former
 
 **TDM-Former: Transition Dynamics Modulation for Adaptive Token Dynamics in Transformer Neural Machine Translation**
@@ -12,31 +13,30 @@ TDM captures the relationship between consecutive activated FFN representations 
 
 ---
 
-## Baseline FFN ResBlock
+## FFN ResBlock Architectures
 
 The conventional Transformer FFN ResBlock contains a position-wise FFN with two fully connected linear sublayers and an activation function. Each FFN output is computed from the corresponding activated FFN representation without directly using the preceding activated FFN representation.
 
-<p align="center">
-  <img src="1-Architecture/ffn_resblock.svg" width="450"/>
-</p>
-
-<p align="center">
-  <b>Figure: Baseline FFN ResBlock</b>
-</p>
-
----
-
-## TDM-Enhanced FFN ResBlock
-
 The proposed TDM-enhanced FFN ResBlock incorporates TDM between the FFN activation and the second linear transformation. TDM computes a transition signal between consecutive activated FFN representations and uses this signal to modulate the current activated FFN representation.
 
-<p align="center">
-  <img src="1-Architecture/ffn_tdm_resblock.svg" width="450"/>
-</p>
-
-<p align="center">
-  <b>Figure: TDM-enhanced FFN ResBlock</b>
-</p>
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <img src="1-Architecture/ffn_resblock.svg" width="400"/>
+    </td>
+    <td align="center" width="50%">
+      <img src="1-Architecture/ffn_tdm_resblock.svg" width="400"/>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <b>Figure: Baseline FFN ResBlock</b>
+    </td>
+    <td align="center">
+      <b>Figure: TDM-enhanced FFN ResBlock</b>
+    </td>
+  </tr>
+</table>
 
 ---
 
@@ -57,11 +57,8 @@ The proposed TDM-enhanced FFN ResBlock incorporates TDM between the FFN activati
 
 
 
-
-
-
-
 ---
+
 ## 📊 Translation Results
 
 | Task | Transformer Baseline | TDM-Former | BLEU Gain | Relative Gain | TDM Epoch | Baseline Epoch |
