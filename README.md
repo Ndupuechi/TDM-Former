@@ -78,16 +78,18 @@ The proposed TDM-enhanced FFN ResBlock incorporates TDM between the FFN activati
 
 
 
+
+
 ---
 
 ## 🧪 Ablation Results
 
 | Model Variant | BLEU | Gain | Relative Gain | Best Epoch |
 |:---|---:|---:|---:|---:|
-| Transformer Baseline | 30.81 | +0.00 | +0.00% | 42 |
-| TDM-Former (L6) | 31.16 | +0.35 | +1.14% | 47 |
-| TDM-Former (L5–L6) | 31.37 | +0.56 | +1.82% | 47 |
-| **TDM-Former (L4–L6)** | **31.51** | **+0.70** | **+2.27%** | **47** |
-| TDM-Former (L3–L6) | 31.54 | +0.73 | +2.37% | 47 |
+| Transformer&nbsp;Baseline | 30.81 | +0.00 | +0.00% | 42 |
+| TDM-Former&nbsp;(L6) | 31.16 | +0.35 | +1.14% | 47 |
+| TDM-Former&nbsp;(L5–L6) | 31.37 | +0.56 | +1.82% | 47 |
+| **TDM-Former&nbsp;(L4–L6)** | **31.51** | **+0.70** | **+2.27%** | **47** |
+| TDM-Former&nbsp;(L3–L6) | 31.54 | +0.73 | +2.37% | 47 |
 
 ---
