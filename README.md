@@ -104,7 +104,6 @@ The proposed TDM-enhanced FFN ResBlock incorporates TDM between the FFN activati
 **IWSLT14 DE&nbsp;→&nbsp;EN TDM insertion-depth ablation**
 
 | Model&nbsp;Variant | Runs | BLEU&nbsp;Last | BLEU&nbsp;Best | Inference&nbsp;Time&nbsp;(s) | Time&nbsp;Δ | Throughput&nbsp;(words/s) | Throughput&nbsp;Δ | Memory&nbsp;(GB) | Memory&nbsp;Δ |
-
 |:---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
 | Transformer&nbsp;Baseline | 10 | 30.48&nbsp;±&nbsp;0.00 | 30.81 | 6.03&nbsp;±&nbsp;0.33 | +0.00% | 5204.05&nbsp;±&nbsp;290.83 | +0.00% | 1.74&nbsp;±&nbsp;0.00 | +0.00% |
 | TDM&#8209;Former&nbsp;(L6) | 10 | 31.16&nbsp;±&nbsp;0.00 | 31.16 | 6.40&nbsp;±&nbsp;0.37 | +6.05% | 4985.42&nbsp;±&nbsp;289.68 | −4.20% | 1.74&nbsp;±&nbsp;0.00 | +0.00% |
