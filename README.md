@@ -76,6 +76,21 @@ The proposed TDM-enhanced FFN ResBlock incorporates TDM between the FFN activati
 | ZH → EN | 34.35 | **34.96** | +0.61 | +1.78% | 46 | 46 |
 
 
+---
+## 📊 Translation Results
+
+| Task | Transformer Baseline | TDM-Former | BLEU Gain | Relative Gain | TDM Epoch | Baseline Epoch |
+|:---|---:|---:|---:|---:|---:|---:|
+| EN&nbsp;→&nbsp;DE | 25.34 | **25.76** | +0.42 | +1.66% | 48 | 48 |
+| DE&nbsp;→&nbsp;EN | 30.81 | **31.51** | +0.70 | +2.27% | 47 | 42 |
+| EN&nbsp;→&nbsp;RO | 26.31 | **26.63** | +0.32 | +1.22% | 47 | 49 |
+| RO&nbsp;→&nbsp;EN | 32.88 | **33.60** | +0.72 | +2.19% | 49 | 49 |
+| EN&nbsp;→&nbsp;IT | 28.63 | **28.78** | +0.15 | +0.52% | 49 | 49 |
+| IT&nbsp;→&nbsp;EN | 31.87 | **32.63** | +0.76 | +2.38% | 46 | 46 |
+| EN&nbsp;→&nbsp;ZH | 20.28 | **20.60** | +0.32 | +1.58% | 49 | 49 |
+| ZH&nbsp;→&nbsp;EN | 34.35 | **34.96** | +0.61 | +1.78% | 46 | 46 |
+
+
 
 
 ---
