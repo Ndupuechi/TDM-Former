@@ -99,6 +99,8 @@ The proposed TDM-enhanced FFN ResBlock incorporates TDM between the FFN activati
 
 ---
 
+## ⚡ Inference Efficiency Results
+
 **IWSLT14 DE&nbsp;→&nbsp;EN TDM insertion-depth ablation**
 
 | Model&nbsp;Variant | Runs | BLEU Last | BLEU Best | Inference Time (s) | Time Δ | Throughput (words/s) | Throughput Δ | Memory (GB) | Memory Δ |
