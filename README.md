@@ -83,6 +83,7 @@ The proposed TDM-enhanced FFN ResBlock incorporates TDM between the FFN activati
 ---
 
 ## 🧪 Ablation Results
+**IWSLT14 DE&nbsp;→&nbsp;EN TDM insertion-depth ablation**
 
 | Model Variant | BLEU | Gain | Relative Gain | Best Epoch |
 |:---|---:|---:|---:|---:|
@@ -91,5 +92,23 @@ The proposed TDM-enhanced FFN ResBlock incorporates TDM between the FFN activati
 | TDM-Former&nbsp;(L5–L6) | 31.37 | +0.56 | +1.82% | 47 |
 | **TDM-Former&nbsp;(L4–L6)** | **31.51** | **+0.70** | **+2.27%** | **47** |
 | TDM-Former&nbsp;(L3–L6) | 31.54 | +0.73 | +2.37% | 47 |
+
+
+
+
+
+---
+
+## ⚡ Inference Efficiency Results
+
+**IWSLT14 DE&nbsp;→&nbsp;EN TDM insertion-depth ablation**
+
+| Model Variant | Runs | BLEU Last | BLEU Best | Inference Time (s) | Time Δ | Throughput (words/s) | Throughput Δ | Memory (GB) | Memory Δ |
+|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| Transformer&nbsp;Baseline | 10 | 30.48 ± 0.00 | 30.81 | 6.03 ± 0.33 | +0.00% | 5204.05 ± 290.83 | +0.00% | 1.74 ± 0.00 | +0.00% |
+| TDM-Former&nbsp;(L6) | 10 | 31.16 ± 0.00 | 31.16 | 6.40 ± 0.37 | +6.05% | 4985.42 ± 289.68 | −4.20% | 1.74 ± 0.00 | +0.00% |
+| TDM-Former&nbsp;(L5–L6) | 10 | 31.16 ± 0.00 | 31.37 | 6.54 ± 0.49 | +8.37% | 4870.09 ± 349.02 | −6.42% | 1.74 ± 0.00 | +0.00% |
+| **TDM-Former&nbsp;(L4–L6)** | **10** | **31.34 ± 0.00** | **31.51** | **6.80 ± 0.45** | **+12.70%** | **4660.17 ± 288.56** | **−10.45%** | **1.74 ± 0.00** | **+0.00%** |
+| TDM-Former&nbsp;(L3–L6) | 10 | 31.34 ± 0.00 | 31.54 | 7.11 ± 0.57 | +17.84% | 4485.32 ± 328.22 | −13.81% | 1.74 ± 0.00 | +0.00% |
 
 ---
