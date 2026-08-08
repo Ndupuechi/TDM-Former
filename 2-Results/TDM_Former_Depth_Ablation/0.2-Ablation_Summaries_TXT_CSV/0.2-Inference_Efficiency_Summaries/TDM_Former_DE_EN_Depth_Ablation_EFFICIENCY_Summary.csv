@@ -1,0 +1,6 @@
+﻿Variant,Runs,BLEU last epoch,Avg Inference Time (s),Time Δ vs Baseline (%),Avg Throughput (word/s),Throughput Δ vs Baseline (%),Avg Memory (GB),Memory Δ vs Baseline (%)
+Baseline,10,30.48,6.03,0.0,5204.05,0.0,1.74,0.0
+TDM L6,10,31.16,6.4,6.05,4985.42,-4.2,1.74,0.0
+TDM L5-L6,10,31.16,6.54,8.37,4870.09,-6.42,1.74,0.0
+TDM L4-L6,10,31.34,6.8,12.7,4660.17,-10.45,1.74,0.0
+TDM L3-L6,10,31.34,7.11,17.84,4485.32,-13.81,1.74,0.0

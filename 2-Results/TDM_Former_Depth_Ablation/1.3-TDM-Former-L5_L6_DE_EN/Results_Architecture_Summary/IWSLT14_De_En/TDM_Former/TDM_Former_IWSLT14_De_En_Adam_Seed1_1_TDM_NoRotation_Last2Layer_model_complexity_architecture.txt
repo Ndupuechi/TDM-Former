@@ -1,0 +1,96 @@
+================================================================================================
+📊🏷️1. ============= TDM_Former Complexity Check ===========================
+================================================================================================
+✅ TDM_Former Total Parameters: 55,111,684
+⚙️ TDM_Former MACs: 12.14 GMACs
+🔥 TDM_Former FLOPs: 24.31 GFLOPS
+📦 TDM_Former Params: 55.11 M
+⚖️ model=TDM_Former | encoder_layers=6 | decoder_layers=6 | encoder_embed_dim=512 | decoder_embed_dim=512 | max_target_positions=256 | dropout=0.3
+🔧 activation=gelu | optimizer=Adam | lr=0.0001
+
+==============================================================================================
+📐🏷️2. ============= TDM_Former Architecture ===============================
+================================================================================================
+TransformerModel(
+  (encoder): TransformerEncoderBase(
+    (dropout_module): FairseqDropout()
+    (embed_tokens): Embedding(8184, 512, padding_idx=1)
+    (embed_positions): SinusoidalPositionalEmbedding()
+    (layers): ModuleList(
+      (0-5): 6 x TransformerEncoderLayerBase(
+        (self_attn): MultiheadAttention(
+          (dropout_module): FairseqDropout()
+          (k_proj): Linear(in_features=512, out_features=512, bias=True)
+          (v_proj): Linear(in_features=512, out_features=512, bias=True)
+          (q_proj): Linear(in_features=512, out_features=512, bias=True)
+          (out_proj): Linear(in_features=512, out_features=512, bias=True)
+        )
+        (self_attn_layer_norm): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+        (dropout_module): FairseqDropout()
+        (activation_dropout_module): FairseqDropout()
+        (fc1): Linear(in_features=512, out_features=2048, bias=True)
+        (fc2): Linear(in_features=2048, out_features=512, bias=True)
+        (final_layer_norm): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+      )
+    )
+  )
+  (decoder): TransformerDecoderBase(
+    (dropout_module): FairseqDropout()
+    (embed_tokens): Embedding(6624, 512, padding_idx=1)
+    (embed_positions): SinusoidalPositionalEmbedding()
+    (layers): ModuleList(
+      (0-3): 4 x TransformerDecoderLayerBase(
+        (dropout_module): FairseqDropout()
+        (self_attn): MultiheadAttention(
+          (dropout_module): FairseqDropout()
+          (k_proj): Linear(in_features=512, out_features=512, bias=True)
+          (v_proj): Linear(in_features=512, out_features=512, bias=True)
+          (q_proj): Linear(in_features=512, out_features=512, bias=True)
+          (out_proj): Linear(in_features=512, out_features=512, bias=True)
+        )
+        (activation_dropout_module): FairseqDropout()
+        (self_attn_layer_norm): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+        (encoder_attn): MultiheadAttention(
+          (dropout_module): FairseqDropout()
+          (k_proj): Linear(in_features=512, out_features=512, bias=True)
+          (v_proj): Linear(in_features=512, out_features=512, bias=True)
+          (q_proj): Linear(in_features=512, out_features=512, bias=True)
+          (out_proj): Linear(in_features=512, out_features=512, bias=True)
+        )
+        (encoder_attn_layer_norm): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+        (fc1): Linear(in_features=512, out_features=2048, bias=True)
+        (fc2): Linear(in_features=2048, out_features=512, bias=True)
+        (final_layer_norm): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+      )
+      (4-5): 2 x TransformerDecoderLayerBase(
+        (dropout_module): FairseqDropout()
+        (self_attn): MultiheadAttention(
+          (dropout_module): FairseqDropout()
+          (k_proj): Linear(in_features=512, out_features=512, bias=True)
+          (v_proj): Linear(in_features=512, out_features=512, bias=True)
+          (q_proj): Linear(in_features=512, out_features=512, bias=True)
+          (out_proj): Linear(in_features=512, out_features=512, bias=True)
+        )
+        (activation_dropout_module): FairseqDropout()
+        (self_attn_layer_norm): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+        (encoder_attn): MultiheadAttention(
+          (dropout_module): FairseqDropout()
+          (k_proj): Linear(in_features=512, out_features=512, bias=True)
+          (v_proj): Linear(in_features=512, out_features=512, bias=True)
+          (q_proj): Linear(in_features=512, out_features=512, bias=True)
+          (out_proj): Linear(in_features=512, out_features=512, bias=True)
+        )
+        (encoder_attn_layer_norm): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+        (fc1): Linear(in_features=512, out_features=2048, bias=True)
+        (fc2): Linear(in_features=2048, out_features=512, bias=True)
+        (final_layer_norm): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+        (tdm_module): TDM_Former()
+      )
+    )
+    (output_projection): Linear(in_features=512, out_features=6624, bias=False)
+  )
+)
+
+==============================================================================================
+📐🏷️3. ============= TDM_Former Architectural Specification  ===============
+================================================================================================
