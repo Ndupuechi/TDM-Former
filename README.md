@@ -42,12 +42,42 @@ The proposed TDM-enhanced decoder FFN ResBlock incorporates TDM between the FFN 
 
 ---
 
-## Repository Structure
+## 📁 Repository Structure
 
-- `1-Architecture`: Architecture diagrams for the baseline and TDM-enhanced decoder FFN ResBlocks.
-- `2-Results`: Translation results, ablation results, efficiency measurements, and plots.
-- `3-Experiments`: Training, evaluation, and model implementation files for the evaluated IWSLT translation tasks.
+- `1-Architecture`
 
+  - Architecture diagrams for the baseline and TDM-enhanced decoder FFN ResBlocks.
+
+- `2-Results`
+
+  - **Main experiments**
+    - Baseline-vs-TDM-Former translation performance across all evaluated language directions.
+    - Plots and training/test logs.
+    - Experiment scripts.
+
+  - **TDM insertion-depth ablation**
+    - Translation-performance comparison across different TDM insertion depths.
+    - Computational-cost and inference-efficiency comparison across different TDM insertion depths.
+    - Tabulated translation-performance and inference-efficiency results provided in TXT and CSV formats.
+    - Baseline Transformer architecture and TDM-Former architectures for different insertion-depth variants.
+    - Plots and training/test logs.
+    - Experiment scripts.
+
+- `3-Experiments`
+
+  - **Main experiments**
+    - Experimental code for the baseline Transformer and TDM-Former across all evaluated translation directions.
+    - TDM-Former model implementations.
+    - Training and testing scripts.
+    - Parsers and Fairseq configurations.
+    - Translation-performance Jupyter notebooks.
+
+  - **TDM insertion-depth ablation**
+    - Experimental code for translation-performance, computational-cost, and inference-efficiency ablations.
+    - TDM-Former model implementations for different insertion-depth variants.
+    - Training and testing scripts.
+    - Parsers and Fairseq configurations.
+    - Translation-performance and inference-efficiency Jupyter notebooks.
 ---
 
 ## 📄 Architecture Figures (PDF)
